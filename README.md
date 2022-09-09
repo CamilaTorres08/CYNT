@@ -1,25 +1,45 @@
-Estudiante: Andrea Camila Torres González
+# Calculadora de numeros complejos, matrices y vectores
 
-Este programa está diseñado para calcular números complejos, este incluye 9 funciones en las cuales cada una realiza una operación en específico como: suma, multiplicación, división, resta, modulo, conjugado, cartesiano a polar, polar a cartesiano y hallar la fase del complejo.
+Este repositorio contiene dos programas, el programa "calculadoraComplejos" realiza operaciones con números complejos y el programa "calculadoraVectoresMatrices" realiza operaciones para matrices y vectores complejos. 
 
-Función "SumComplex": Esta función está compuesta de dos variables tipo entero: real e img. en la cual, cada una realiza la suma de reales e imaginarios respectivamente para retornar una tupla con lo que se guardó en dichas variables.
 
-Función "MultComplex": Esta función está compuesta de dos variables tipo entero: real e img. en la cual, cada una realiza la multiplicación de reales e imaginarios de acuerdo con la propiedad de la multiplicación de complejos y retorna una tupla con el resultado.
+## Como usar
 
-Función "RestComplex": Esta función está compuesta de dos variables tipo entero: real e img. en la cual, cada una realiza la resta de reales e imaginarios respectivamente para retornar una tupla con lo que se guardó en dichas variables.
+para la calculadora de números complejos, la funciones reciben como parámetros tuplas que contienen la parte real e imaginaria del número. Cada función tiene como objetivo realizar una operación en específico como: suma, multiplicación, resta, división, módulo, conjugado, polar a cartesiano, cartesiano a polar, fase e imprimir en forma cartesiana o en forma polar. 
+       
+`PrintNumsCart(SumComplex((2,3),(4,7)))`
 
-Función "DivComplex": Esta función está compuesta de tres variables tipo entero: result1,result2 y result3. -La variable result1 calcula la suma de los productos de las partes reales e imaginarias respectivamente. -La variable result2 calcula la suma de los cuadrados de la parte real e imaginaria del segundo parámetro que recibe la función, es decir, el segundo número complejo. -La variable result3 calcula la resta de los productos de la parte real con la imaginaria de cada número. Por último la función retorna una tupla que contiene la división de acuerdo con la propiedad de la división de complejos.
+`PrintNumsCart(MultComplex((2,3),(4,7)))`
 
-Función "ModComplex": Esta función está compuesta de dos variables tipo entero: a y b, en la cual, la primera representa el cuadrado de la parte real del complejo y la segunda, el cuadrado de la parte imaginaria. Por último, retorna un resultado tipo flotante que representa la raiz de la suma de las variables anteriormente mencionadas.
+`PrintNumsCart(RestComplex((3,-1),(1,4)))`
 
-Función "ConjComplex": Esta función directamente retorna una tupla en la cual, multiplica la parte imaginaria por menos uno (-1) para cambiar el signo.
+`PrintNumsCart(DivComplex((-2,1),(1,2)))`
 
-Función "PolCartComplex": Esta función está compuesta de dos variables tipo entero: a y b. en la cual, la primera realiza la multiplicación de p por el coseno del angulo dado y la segunda realiza la multiplicación de p por el seno del angulo dado.
+`print(ModComplex((1,-1)))`
 
-Función "CartPolComplex": Esta función está compuesta de dos variables tipo entero: p y ang, la primera invoca la función "ModComplex" para realizar el módulo, y la segunda invoca la función "FaseComplex" para hallar la fase ó angulo en el que se encuentra el complejo. Por último, retorna una tupla con los resultados.
+`PrintNumsCart(ConjComplex((3,2)))`
 
-Función "FaseComplex": Esta función está retorna la fase ó angulo en el que se encuentra el complejo.
+`PrintNumsCart(PolCartComplex((3,-1)))`
 
-Función "PrintNumsCart": Esta función imprime el resultado sin la tupla, está compuesta por dos condiciones para que la salida se vea más estilizada. -Primera condición: esta condicion va enfocada para cuando la parte imaginaria es negativa, pues se imprime el número con su signo (-) junto con una "i". -Segunda condición: si la parte imaginaria es positiva, imprime un "+" antes del complejo junto con la "i" para indicar la parte imaginaria.
+`PrintNumsPol(CartPolComplex((-3,-2)))`
 
-Función "PrintNumsPol": Esta función imprime el número en representación polar.
+`print("Fase:",end= ' ')`
+
+`print(FaseComplex((-3,-2)))`
+
+Para la calculadora de matrices y vectores, se deberá pasar como parámetros a las funciones, matrices y vectores con tuplas.
+
+`$ git clone url`
+
+## Cómo se usa
+
+`import PlatziVideo`
+`video = PlatziVideo()`
+
+## Cómo contribuir
+
+Puedes crear un pull request al proyecto
+
+## Licencia
+
+MIT
