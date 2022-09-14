@@ -1,6 +1,6 @@
-# Calculadora de numeros complejos, matrices y vectores
+# Calculadora de numeros complejos, matrices y vectores, Programa de simulación de lo cuántico a lo clásico
 
-A continuación se presentan dos programas: el primer programa se llama "calculadoraComplejos" y realiza ciertas operaciones para números complejos. Por otro lado, el programa "calculadoraVectoresMatrices" realiza las operaciones para matrices y vectores complejos (arreglos). 
+A continuación se presentan dos programas: el primer programa se llama "calculadoraComplejos" y realiza ciertas operaciones para números complejos. Por otro lado, el programa "calculadoraVectoresMatrices" realiza las operaciones para matrices y vectores complejos (arreglos). Por último se presenta un programa de canicas, donde con matrices y vectores de puede calcular la posicion y probabilidad despues de un tiempo del objeto. 
 
 
 ## Como usar
@@ -96,6 +96,15 @@ Producto tensor de dos matrices/vectores
 `print(tabulate(ProductMat([[(1,2),(3,4),(10,-11)],[(4,5),(6,7),(12,4)]],[[(1,2),(3,4),(7,8),(-4,-6)],[(7,0),(0,1),(0,4),(7,10)],[(0,2),(4,0),(-1,-1),(0,-1)]])),'\n')`
 
 `print(tabulate(ProductTensor([[(1,2),(3,4),(5,1)],[(1,1),(2,2),(3,3)]],[[(6,7),(8,9),(10,3)],[(1,2),(-3,3),(4,5)]])),'\n')`
+
+*Programa simulación de lo cuántico a lo clásico (AVANCE, SIN TERMINAR AÚN)
+Este programa hasta el momento, esta compuesto de tres funciones:
+
+coeficiente_booleano: Dada una triz con ceros y uno, y con la función 'calcular_clicks' se calcula la posición de la canica despues de un tiempo. 1 representa True y 0 False.
+
+Probabilidad_Multi: Calcula la probabilidad de la posicion de la canica multiplicando una matriz M con un vector X.
+
+mult_rendijas: Calcula el producto tensor de dos matrices de proximidad de cada canica para saber la probabilidad de sus estados simultaneamente. 
 
 
 ## Autor
