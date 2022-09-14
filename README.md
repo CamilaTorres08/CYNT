@@ -5,7 +5,7 @@ A continuación se presentan dos programas: el primer programa se llama "calcula
 
 ## Como usar
 
-*Programa para numeros Complejos
+***Programa para numeros Complejos
 
 para la calculadora de números complejos, la funciones reciben como parámetros tuplas que contienen la parte real e imaginaria del número.  Cada función tiene como objetivo realizar una operación en específico como: suma, multiplicación, resta, división, módulo, conjugado, polar a cartesiano, cartesiano a polar y fase. Se recomienda hacer uso de la función PrintNumsCart para imprimir numeros cartesianos y PrintNumsPol para números en su forma polar.
 
@@ -29,7 +29,7 @@ para la calculadora de números complejos, la funciones reciben como parámetros
 
 `print(FaseComplex((-3,-2)))`
 
-*Programa para matrices y vectores complejos
+***Programa para matrices y vectores complejos
 
 Para la calculadora de matrices y vectores, se deberá pasar como parámetros a las funciones, matrices y vectores con tuplas ya que este está hecho para números complejos, asi mismo, se recomienda hacer uso de la libreria tabulate() para que imprima la matríz de una forma más ordenada y para vectores se recomienda llamar a la función  Imprimir_vectores para que imprima de una manera más elegante. 
 Este programa hace uso de la libreria de numeros complejos para realizar algunas operaciones en especifico, asi mismo este realiza las siguientes operaciones: 
@@ -97,7 +97,8 @@ Producto tensor de dos matrices/vectores
 
 `print(tabulate(ProductTensor([[(1,2),(3,4),(5,1)],[(1,1),(2,2),(3,3)]],[[(6,7),(8,9),(10,3)],[(1,2),(-3,3),(4,5)]])),'\n')`
 
-*Programa simulación de lo cuántico a lo clásico (AVANCE, SIN TERMINAR AÚN)
+***Programa simulación de lo cuántico a lo clásico (AVANCE, SIN TERMINAR AÚN)
+
 Este programa hasta el momento, esta compuesto de tres funciones:
 
 coeficiente_booleano: Dada una triz con ceros y uno, y con la función 'calcular_clicks' se calcula la posición de la canica despues de un tiempo. 1 representa True y 0 False.
