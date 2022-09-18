@@ -1,7 +1,6 @@
-# Calculadora de numeros complejos, matrices y vectores, Programa de simulación de lo cuántico a lo clásico
+# Calculadora de numeros complejos, matrices y vectores
 
-A continuación se presentan dos programas: el primer programa se llama "calculadoraComplejos" y realiza ciertas operaciones para números complejos. Por otro lado, el programa "calculadoraVectoresMatrices" realiza las operaciones para matrices y vectores complejos (arreglos). Por último se presenta un programa de canicas, donde con matrices y vectores de puede calcular la posicion y probabilidad despues de un tiempo del objeto. 
-
+A continuación se presentan dos programas: el primer programa se llama "calculadoraComplejos" y realiza ciertas operaciones para números complejos. Por otro lado, el programa "calculadoraVectoresMatrices" realiza las operaciones para matrices y vectores complejos (arreglos). 
 
 ## Como usar
 
