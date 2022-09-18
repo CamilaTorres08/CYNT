@@ -97,16 +97,6 @@ Producto tensor de dos matrices/vectores
 
 `print(tabulate(ProductTensor([[(1,2),(3,4),(5,1)],[(1,1),(2,2),(3,3)]],[[(6,7),(8,9),(10,3)],[(1,2),(-3,3),(4,5)]])),'\n')`
 
-***Programa simulación de lo cuántico a lo clásico (AVANCE, SIN TERMINAR AÚN)
-
-Este programa hasta el momento, esta compuesto de tres funciones:
-
-coeficiente_booleano: Dada una triz con ceros y uno, y con la función 'calcular_clicks' se calcula la posición de la canica despues de un tiempo. 1 representa True y 0 False.
-
-Probabilidad_Multi: Calcula la probabilidad de la posicion de la canica multiplicando una matriz M con un vector X.
-
-mult_rendijas: Calcula el producto tensor de dos matrices de proximidad de cada canica para saber la probabilidad de sus estados simultaneamente. 
-
 
 ## Autor
 
